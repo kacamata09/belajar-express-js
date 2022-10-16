@@ -2,9 +2,9 @@
 
 // anshar
 
-express = require('express')
+const express = require('express')
 
-app = express()
+const app = express()
 
 app.listen(2000, console.log('Ini adalah server express pertamaku, anshar'))
 
